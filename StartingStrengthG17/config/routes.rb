@@ -1,4 +1,7 @@
 Rails.application.routes.draw do
+  get 'workout/workout'
+  get 'stats/stats'
+  get 'tutorial/tutorial'
   get 'welcome/index'
   
   resources :mains
